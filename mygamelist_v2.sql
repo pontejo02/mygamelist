@@ -15,7 +15,7 @@ CREATE TABLE usuarios (
   creado        DATETIME DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
--- ── Catálogo de juegos (caché local de RAWG) ───────
+-- ── Catálogo de juegos (caché local de RAWG) ──────
 CREATE TABLE juegos (
   id          INT AUTO_INCREMENT PRIMARY KEY,
   rawgId      INT          NOT NULL UNIQUE,
